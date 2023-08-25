@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# internal import
+from smartbackup.configureapp import ConfigureApp
+
+
+def main():
+    """wrapper function to call the smart app,
+    keeping it OS agnostic
+    """
+    ConfigureApp.run()
+
+
+if __name__ == "__main__":
+    main()
